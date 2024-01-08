@@ -100,9 +100,53 @@ export default function () {
             </div>
             <div className='col-md-4'>
               <div className='left-side'>
-                <img src={require('./images/Maa-Cuttack-Chandi-Temple-cuttack3.jpg')} alt="odissi"/>
+                <img src={require('./images/Maa-Cuttack-Chandi-Temple-cuttack3.jpg')} alt="Chandi"/>
               </div>
             </div>
+              <div className='col-md-4'>
+              <div className='left-side'>
+                <img src={require('./images/samaleswari.jpg')} alt="samaleswari"/>
+              </div>
+            </div> 
+            <div className='col-md-8'>
+              <div className='right-side'>
+                <h4>Salameswari Temple </h4>
+                <p>Samaleswari Temple is a Hindu temple in Sambalpur, Odisha, India, dedicated to the goddess known as 'Samaleswari', also known among the natives as samalei maa, meaning Mother Samaleswari. Shree Shree Samaleswari, the presiding deity of Sambalpur, is a strong religious force in western part of Odisha and Chhattisgarh state of India.</p>
+              </div>
+            </div>
+              <div className='col-md-8'>
+              <div className='right-side'>
+                <h4>Biraja Temple </h4>
+                <p>The Biraja Temple, also known as Viraja or Girija Kshetra, is a prominent Hindu temple located in the town of Jajpur, in the Jajpur district of Odisha, India. Dedicated to Goddess Biraja, a manifestation of Goddess Durga, this temple is considered one of the Shakti Peethas, which are sacred shrines associated with the goddess's various body parts.</p>
+              </div>
+            </div>
+              <div className='col-md-4'>
+              <div className='left-side'>
+                <img src={require('./images/Biraja_Temple.jpg')} alt="samaleswari"/>
+              </div>
+            </div> 
+            <div className='col-md-4'>
+              <div className='left-side'>
+                <img src={require('./images/maa-taratarini-temple-odisha.jpg')} alt="samaleswari"/>
+              </div>
+            </div> 
+            <div className='col-md-8'>
+              <div className='right-side'>
+                <h4>Tara Tarini Temple </h4>
+                <p>The Maa Tara Tarini Temple is a significant Hindu temple located on the Kumari hills, near the Brahmani River in Ganjam district, Odisha, India. It is dedicated to the twin goddesses Tara and Tarini, who are considered manifestations of Adi Shakti, the supreme goddess in Hinduism.</p>
+              </div>
+            </div>
+             <div className='col-md-8'>
+              <div className='right-side'>
+                <h4>Tarini Temple </h4>
+                <p>Ghatagaon Maa Tarini Pitha is a place of famous pilgrimage centre of Odisha. Maa Tarini Temple is raised in modern time, the crude form of deity justify its pristine origin. The legend is that Maa Tarini is merciful and benevolent to her devotees. Nearest forest reserves adding beauty to the Maa Tarini Pitha is the nestling site of different wildlifes.</p>
+              </div>
+            </div>
+              <div className='col-md-4'>
+              <div className='left-side'>
+                <img src={require('./images/Tarni_temple_Gate_view.JPG')} alt="samaleswari"/>
+              </div>
+            </div> 
           </div>
         </div>
       </div>

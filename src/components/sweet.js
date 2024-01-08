@@ -1,5 +1,5 @@
 import React from 'react';
-export default function Streetfood() {
+export default function Sweet() {
   return (
     <div>
         <div className='sweets'>
@@ -7,6 +7,13 @@ export default function Streetfood() {
         </div>
         <div className='streetfood'>
             <div className='container'>
+                <div className='row'>
+                    <h2><span>Desserts Of</span> Odisha</h2>
+                    <div className="main-heading-domain-border2">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
                 <div className='row'>
                     <div className='col-xs-12 col-sm-6 col-lg-6'>
                         <div className='under_food'>   
@@ -47,25 +54,35 @@ export default function Streetfood() {
                                 </div>
                             </div>
                             </div>
-                            <div className='under_food'>
+                         <div className='under_food'>
                             <div className="image-container">
-                                <img src={require('./images/arishapitha.png')} alt="odissi" style={{ padding: '30px' }}/>
+                                <img src={require('./images/besan-ladoo.png')} alt="odissi" style={{height: '150px' }}/>
                                 <div className="text-container">
-                                    <h5>Arishapitha</h5>
-                                    <p>Arisa Pitha is another sweet dish of Odisha, made from rice flour, sugar, and cinnamon. Arisa pithas are velvety on the inside.</p>
+                                    <h5>Besan Ladoo(ବେସନ ଲଡୁ)</h5>
+                                    <p>Besan Ladoo is a popular Indian sweet made from gram flour (besan), ghee, sugar, and flavored with cardamom. While it's not traditionally associated with Odisha, it's a versatile sweet that can be found and enjoyed in various regions of India.</p>
                                 </div>
                             </div>
                             </div>
                           <div className='under_food'>
                             <div className="image-container">
-                                <img src={require('./images/chakuli.png')} alt="odissi" style={{ padding: '30px' }}/>
+                                <img src={require('./images/ladoo.png')} alt="odissi" style={{height: '150px'}}/>
                                 <div className="text-container">
-                                    <h5>Chakuli</h5>
+                                    <h5>Ladoo(ଲଡୁ)</h5>
                                     <p>Chakuli Pitha is an Odia crepe made from rice flour and urad dal. It goes well with traditional curries like aloo dam, ghugni, chicken curry.</p>
                                 </div>
                             </div>
                             </div>
-                            
+                      </div>
+                        <div className='col-xs-12 col-sm-6 col-lg-6'>
+                        <div className='under_food'>
+                            <div className="image-container">
+                                <img src={require('./images/jalebi.png')} alt="jalebi" style={{ height: '150px' }}/>
+                                <div className="text-container">
+                                    <h5>Chhena Jalebi (ଛେନା ଝିଲାପି) </h5>
+                                    <p>The basic ingredient is fresh curd cheese called chenna. Fresh chhena is thoroughly kneaded and rolled up into shapes similar to pretzels, before being deep fried.</p>
+                                </div>
+                            </div>
+                            </div>       
                     </div>
                 </div>
             </div>  

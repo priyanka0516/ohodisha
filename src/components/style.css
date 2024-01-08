@@ -396,14 +396,9 @@ div#slider {
     font-size: 14px;
     overflow: hidden;
     color: #000;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    /* number of lines to show */
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
 }
 .cards .card-image {
-    height: 200px;
+    height: 190px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -450,7 +445,7 @@ div#slider {
 .all-temples{
     position: relative;
     padding: 30px 0px;
-    background: url('./images/bg.png');
+    /* background: url('./images/bg.png'); */
 }
 .all-temples h2{
     font-size: 35px;
@@ -491,8 +486,12 @@ div#slider {
 }
 .left-side img{
     width: 100%;
-    /* height: 250px; */
+    height: 250px;
+    transition: 0.3s;
     border-radius: 20px;
+}
+.left-side img:hover{
+    transform: scale(1.1);
 }
 /* waterfall-banner */
 .Waterfall-banner{
@@ -513,7 +512,7 @@ div#slider {
 /* lakes */
 .lakesPage{
     background-color: #041a38;
-    background: url('./images/Lake_beach.png');
+    background: url('./images/img2.jpeg');
     background-position: center;
     overflow: hidden;
     display: flex;
@@ -1067,7 +1066,7 @@ tbody a{
 /* museums */
 .museums{
     position: relative;
-    background: url('./images/musuems.jpg');
+    background: url('./images/img4.jpeg');
     background-position: center;
     overflow: hidden;
     display: flex;
@@ -1168,27 +1167,26 @@ tbody a{
     padding: 25px;
     text-align: left;
 }
-   .image-row {
-       display: flex;
-       justify-content: space-between;
-       /* Adjust as needed */
-       align-items: center;
-   }
-   /* about Banner */
-   .about-banner{
-        position: relative;
-        background: url('./images/handloom-ban.jpg');
-        background-position: center;
-        overflow: hidden;
-        display: flex;
-        height: 300px;
-        background-size: cover;
-        align-items: center;
-   }
-   .about-desc{
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* about Banner */
+.about-banner{
+    position: relative;
+    background: url('./images/img9.jpg');
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    height: 550px;
+    background-size: cover;
+    align-items: center;
+}
+.about-desc{
     padding: 30px 0px;
     position: relative;
-   }
+}
 .about-desc p {
     color: #000;
     margin: 0;
@@ -1203,23 +1201,23 @@ tbody a{
 /* handloom banner */
 .handloom-banner{
     position: relative;
-        background: url('./images/handloom-ban.jpg');
-        background-position: center;
-        overflow: hidden;
-        display: flex;
-        height: 300px;
-        background-size: cover;
-        align-items: center;
+    background: url('./images/handloom-ban.jpg');
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    height: 300px;
+    background-size: cover;
+    align-items: center;
 }
 .sweets{
     position: relative;
-        background: url('./images/mithai-boxes.jpg');
-        background-position: center;
-        overflow: hidden;
-        display: flex;
-        height: 450px;
-        background-size: cover;
-        align-items: center;
+    background: url('./images/banner_tasteOfodisha.jpg');
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    height: 450px;
+    background-size: cover;
+    align-items: center;
 }
 /* oyo */
 .rooms{
@@ -1256,4 +1254,36 @@ tbody a{
     text-align: center;
     float:left;
     font-size:16px;
+}
+/* mission */
+.mission-area {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.technology1 {
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.technology1 h3 {
+    text-align: left;
+    color: #f45c00;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.paragraph {
+    color: #000;
+    font-size: 14px;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    line-height: 35px;
+    letter-spacing: normal;
 }

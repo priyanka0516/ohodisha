@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 export default class Header extends Component {
-  constructor(props) {
+constructor(props) {
     super(props);
     this.state = {
       isDropdownOpen: false,
@@ -15,14 +15,18 @@ export default class Header extends Component {
   }
   setNavClose = () => {
     this.setState({ navExpanded: false });
-  } 
-  toggleDropdown = () => {
-    this.setState({ isDropdownOpen: !this.state.isDropdownOpen });
-  };
+  }
+  
+ toggleDropdown = () => {
+  this.setState({ isDropdownOpen: !this.state.isDropdownOpen });
+};
+
   toggleDropdown = () => {
     this.setState({ dropdownVisible: !this.state.dropdownVisible });
   };
+
   render() {
+       const { dropdownVisible } = this.state;
   return(
       <Navbar  expand="lg"sticky="top" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
         <Container>

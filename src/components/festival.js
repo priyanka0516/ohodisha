@@ -33,7 +33,7 @@ export default function Festival() {
               </div>
           </div>
           <div className='row'>
-            <p>Odisha celebrates 13 festivals in 12 months as the saying goes Bāra Māsare Tera Parba</p>
+            <p>Odisha celebrates 13 festivals in 12 months as the saying goes Bāra Māsare Tera Parba.</p>
             <div className='col-md-4'>
               <div className="art-images">
                 <img src={require('./../components/images/diwali.jpg')} alt="diwali"/> 

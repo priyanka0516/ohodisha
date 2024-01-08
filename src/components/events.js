@@ -47,6 +47,63 @@ export default function Events() {
                 </div>
             </div>
             </div>
+            <div className='row'>
+                <div className='col-md-12'> 
+                    <h2><span>Crafts</span></h2>
+                    <div className="main-heading-domain-border2">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div className='row mt-4'>
+            <div className='col-sm-3 col-md-6 col-lg-3 mt-2'>
+                <div className='art-images'>
+                    <img src={require('./images/toshali.jpg')} alt="toshali"/>
+                    <h4 className='slide-title'>Toshali National Crafts Mela 2023</h4>
+                    <p>The 18th annual National Toshali Crafts Mela kicked off at Janata Maidan in Odisha's capital on Friday. Scheduled to run till December 26. </p>
+                </div>
+            </div>
+            <div className='col-sm-3 col-md-6 col-lg-3 mt-2'>
+                <div className='art-images'>
+                    <img src={require('./images/sand_art.jpg')} alt="sand_art"/>
+                    <h4 className='slide-title'>Sand Art Festival</h4>
+                    <p>The festival attracts skilled sand artists from various corners of the globe who come together to showcase their talent for creating sculptures out of sand.</p>
+                </div>
+            </div>
+            <div className='col-sm-3 col-md-6 col-lg-3 mt-2'>
+                <div className='art-images'>
+                    <img src={require('./images/ntcm.jpeg')} alt="papier"/>
+                    <h4 className='slide-title'>National Tribal Craft Mela </h4>
+                    <p>The 13th National Tribal Craft Mela and Dance Festival took off at IDCO Exhibition Ground in Bhubaneswar on Friday.</p>
+                </div>
+            </div>
+            <div className='col-sm-3 col-md-6 col-lg-3 mt-2'>
+                <div className='art-images'>
+                    <img src={require('./images/Cuttack_Bali_Yatra_Gate.jpg')} alt="Mukteshwar"/>
+                    <h4 className='slide-title'>Bali Yatra</h4>
+                    <p>Bali Jatra is the major Boita Bandana festival held at Cuttack on Kartik Purnima and lasts for 7 days or more. It is considered to be one of Asia's largest open trade fair.</p>
+                </div>
+            </div>
+            </div>
+            <div className='row'>
+                <div className='col-md-12'> 
+                    <h2><span>Fair</span> & Exhibition</h2>
+                    <div className="main-heading-domain-border2">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div className='row mt-4'>
+            <div className='col-sm-3 col-md-6 col-lg-3 mt-2'>
+                <div className='art-images'>
+                    <img src={require('./images/art.jpg')} alt="toshali"/>
+                    <h4 className='slide-title'>Art Exhibition</h4>
+                    <p>Myurbhanj Art Exhibition-2019 at Belgadia Palace,Baripada by the Royal Family. </p>
+                </div>
+            </div>
+            </div>
             </div>
         </div>
     </div>

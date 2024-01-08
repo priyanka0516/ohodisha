@@ -31,7 +31,7 @@ export default function Lakes() {
         <div className='all-lakes'>
             <div className='container'>
                 <div className='row'>
-                    <h2><span>Explore Popular </span>Lakes in Odisha</h2>
+                    <h2><span>Explore Popular </span>Beaches in Odisha</h2>
                     <div className="main-heading-domain-border2">
                         <div></div>
                         <div></div>
@@ -45,19 +45,26 @@ export default function Lakes() {
                                 <p>Puri Beach or the Golden beach is a beach in the city of Puri in the state of Odisha, India. It is on the shore of the Bay of Bengal. It is known for being a tourist attraction and a Hindu sacred place.The beach is the site of the annual Puri Beach Festival</p>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                     <div className='col-md-4'>
                         <div className="art-images">
-                            <img src={require('./images/Chilika-Lake-e1671544032743.jpg')} alt=""/>
-                                <h4>Chillika Lake</h4>
-                                <p>Spread over in a sprawling area of 1100 sq km, Chilika Lake is known as India's largest coastal inlet and second largest in the entire world. This interesting fact itself is enough to lure a large chunk of tourists to this destination. </p>
+                           <img src={require('./images/CHANDIPUR.jpg')} alt=""/>
+                                <h4>Chandipur Beach</h4>
+                                <p>Chandipur,is a resort town in Balasore District, Odisha, India. The town is located on the shore of Bay of Bengal and is approximately 16 kilometers from the Balasore Railway Station. Due to its unique circumstances, the beach supports biodiversity.</p>
                         </div>
-                    </div>
+                    </div>  
                     <div className='col-md-4'>
                         <div className="art-images">
                             <img src={require('./images/gopalpur-baech-odisha-priya-travels.jpg')} alt=""/>
                                 <h4>Gopalpur Beach</h4>
                                 <p>Gopalpur is a coastal town and a Notified Area Council on the Bay of Bengal coast in Ganjam district in the southern part of Odisha, India. Today it is a commercial port, a famous sea beach and a tourist destination.</p>
                         </div>
+                    </div>
+                </div>
+                <div className='row'>
+                    <h2><span>Explore Popular </span>Lakes in Odisha</h2>
+                    <div className="main-heading-domain-border2">
+                        <div></div>
+                        <div></div>
                     </div>
                 </div>
                 <div className='row mt-3'>
@@ -74,15 +81,47 @@ export default function Lakes() {
                                <h4>Ansupa Lake</h4>
                                 <p>Another tourist attraction in Cuttack is Ansupa Lake. This picturesque lake holds an unparalleled charm for all those nature lovers seeking an indelible holiday experience in Odisha. There are boating and fishing facilities.</p>
                         </div>
+                      </div>
+                         <div className='col-md-4'>
+                        <div className="art-images">
+                            <img src={require('./images/Chilika-Lake-e1671544032743.jpg')} alt=""/>
+                                <h4>Chillika Lake</h4>
+                                <p>Spread over in a sprawling area of 1100 sq km, Chilika Lake is known as India's largest coastal inlet and second largest in the entire world. This interesting fact itself is enough to lure a large chunk of tourists to this destination. </p>
+                        </div>
                     </div>
+                   
+                </div>
+                <div className='row'>
+                    <h2><span>Explore Popular </span>Dams in Odisha</h2>
+                    <div className="main-heading-domain-border2">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div className='row mt-3'>
                     <div className='col-md-4'>
                         <div className="art-images">
-                           <img src={require('./images/CHANDIPUR.jpg')} alt=""/>
-                                <h4>Chandipur Beach</h4>
-                                <p>Chandipur,is a resort town in Balasore District, Odisha, India. The town is located on the shore of Bay of Bengal and is approximately 16 kilometers from the Balasore Railway Station. Due to its unique circumstances, the beach supports biodiversity.</p>
+                               <img src={require('./images/rengali-dam-bc.jpg')} alt=""/>
+                                <h4>Rengali Dam</h4>
+                                <p>The Rengali Dam is a significant irrigation project located in the Angul district of Odisha, India. </p>
                         </div>
-                    </div>  
-                  </div>
+                      </div>
+                    <div className='col-md-4'>
+                        <div className="art-images">
+                               <img src={require('./images/sorada-ghai-bc.jpg')} alt=""/>
+                               <h4>Sorada Ghai Dam</h4>
+                                <p>Sorada Reservoir is located at a distance of around 80 km from Berhampur and is known for proffering a scenic charm which makes it a prominent picnic spot in the region.</p>
+                        </div>
+                      </div>
+                         <div className='col-md-4'>
+                        <div className="art-images">
+                            <img src={require('./images/upper.jpg')} alt=""/>
+                                <h4>Upper Jonk Dam</h4>
+                                <p>An irrigation project, Upper Jonk, near village Patora, 16-km from Nuapada, the District Headquarters town, is a place of rare beautiful charm and an asylum to aquatic fauna.</p>
+                        </div>
+                    </div>
+                   
+                </div>
               </div>
         </div>
     </div>

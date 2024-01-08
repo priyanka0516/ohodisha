@@ -8,29 +8,36 @@ export default function Footer() {
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="widget subscribe no-box">
-                <h5 className="widget-title">COMPANY NAME</h5>
-                <p>About the company, little discription will goes here.. </p>
+                <h5 className="widget-title">Office Address</h5>
+                <p>Arena-3, 3rd Floor,
+                  STPI ELITE Building, Gothapatna,
+                  Khordha, Odisha - 751003</p>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="widget no-box">
                 <h5 className="widget-title">Attraction</h5>
                   <ul className="thumbnail-widget">
-                  <li><div className="thumb-content"><Link to="/streetfood">Desserts</Link></div> </li>
-                  <li><div className="thumb-content"><Link to="/hiddengems">Crafts</Link></div></li>
-                  <li><div className="thumb-content"><Link to="/musuems">Musuems</Link></div> </li>
-                  <li><div className="thumb-content"><Link to="/events">Events</Link></div></li>
-                  <li><div className="thumb-content"><Link to="/festival">Fair & Festivals</Link></div>  </li>
-                  <li><div className="thumb-content"><Link to="/lakes">Lakes</Link></div></li>
-                  <li><div className="thumb-content"><Link to="/dance">Dances & Music</Link></div> </li>
-                  <li><div className="thumb-content"><Link to="/handloom">Handloom</Link></div> </li>
+                  <li><div className="thumb-content"><Link to="/sweet">Desserts</Link></div> </li>
+                  <li><div className="thumb-content"><Link to="/temple">Temples</Link></div></li>
+                  <li><div className="thumb-content"><Link to="/hiddengems">Art & Crafts</Link></div> </li>
+                  <li><div className="thumb-content"><Link to="/dance">Dance & Music</Link></div></li>
+                  <li><div className="thumb-content"><Link to="/lakes">Beach & Lakes</Link></div>  </li>
+                  <li><div className="thumb-content"><Link to="/waterfall">Waterfalls</Link></div> </li>
                   </ul>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="widget no-box">
-                <h5 className="widget-title">Get Started</h5>
-                <p style={{textAlign:'left',fontSize:'14px'}}>Get access to your full Training and Marketing Suite.</p>
+                <h5 className="widget-title">Useful Links</h5>
+                <ul className="thumbnail-widget">
+                  <li><div className="thumb-content"><Link to="/">Home</Link></div> </li>
+                  <li><div className="thumb-content"><Link to="/about">About</Link></div></li>
+                  <li><div className="thumb-content"><Link to="/events">Events</Link></div></li>
+                  <li><div className="thumb-content"><Link to="/festival">Fair & Festivals</Link></div></li>
+                  <li><div className="thumb-content"><Link to="/hiddengems">Crafts</Link></div></li>
+                  <li><div className="thumb-content"><Link to="/musuems">Musuems</Link></div> </li>
+                </ul>
               </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-3">
@@ -38,7 +45,7 @@ export default function Footer() {
                 <h5 className="widget-title">Contact Us</h5>
                 <p><a href="mailto:info@domain.com" title="glorythemes" className='xz'>info@domain.com</a></p>
                 <div className="footer-social">
-                  <Link to="https://www.youtube.com/channel/UCgI66pDg72aaL8R-WMS4__A"> <img src={require('./images/youtube.png')} alt="youtube"/></Link>
+                  <Link to="https://www.youtube.com/channel/UCgI66pDg72aaL8R-WMS4__A"><img src={require('./images/youtube.png')} alt="youtube"/></Link>
                   <Link to="https://www.instagram.com/ohodisha/"><img style={{paddingBottom:'8px'}} src={require('./images/instagram.png')} alt="instagram"/></Link>
                 </div>
               </div>
