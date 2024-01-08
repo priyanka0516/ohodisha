@@ -322,7 +322,6 @@ div#slider {
     background-image: url('./images/bg.png');
     color: #fff;
     background-position: center;
-    /* background-size: cover; */
     background-attachment: fixed;
     display: flex;
     align-items: center;
@@ -523,6 +522,17 @@ div#slider {
     position: relative;
     padding: 30px ;
     /* background: url('./images/bg.png'); */
+}
+.home-desc {
+    padding: 30px 0px;
+    position: relative;
+}
+.home-desc p {
+    color: #000;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px 0;
 }
 h2 span{
     color: #f45c00;
@@ -1257,7 +1267,7 @@ tbody a{
 }
 /* mission */
 .mission-area {
-    background-color: #fff;
+    background-image: url('./images/bg.png');
     padding: 50px 0;
 }
 
@@ -1269,6 +1279,10 @@ tbody a{
     transition: all .5s ease-in-out;
 }
 
+.home-desc h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
 .technology1 h3 {
     text-align: left;
     color: #f45c00;

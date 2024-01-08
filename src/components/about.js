@@ -23,20 +23,6 @@ export default function About() {
                             Whether you need animation for commercials, films, video games, or any other project, we've got you covered. Our expertise spans various animation styles, from 2D to 3D, ensuring that we can bring any concept to life.
                             Join us on this exciting journey as we embark on new adventures in the world of animation. Let Animeton be your trusted partner in turning your ideas into captivating animated realities.
                             Feel free to reach out to us with any inquiries or project ideas. We can't wait to collaborate with you and create something extraordinary together!</p>
-                            {/* <p>Oh Odisha!!!
-                            It's a dream, An initiative, An adventure,
-                            To Serve Mother Odisha!!!To Promote the culture of Odisha, The Language,
-                            The Music, The Dance, The Business, The People, The Tradition, The Nature, 
-                            The Products, The Natural Beauty of Odisha.
-                            To explore Tourism, The Temples, Stupas, The Lakes, Rivers, The Mountains, The Golden Beach of Bay of Bengal...
-                            All together we are here to promote, publish the Maritime History, The Heritage, The Present and Future of Odisha.
-                            We are Vocal for Local
-                            We are Promoting Swedeshi
-                            We are here for you..
-                            For your Business
-                            To take it to the next level all around the Globe
-                            To open the doors of new opportunities...We are Oh Odisha!!!Presented by Oh Odisha.We are promoting Swadeshi... We are Vocal For Local...
-                        </p> */}
                     </div>
                 </div>    
             </div>
