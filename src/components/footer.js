@@ -57,7 +57,7 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <p>Copyright Company Name © 2023. All rights reserved.</p>
+              <p>Copyright Quotus Software Solutions. All rights reserved.</p>
             </div>
           </div>
         </div>
